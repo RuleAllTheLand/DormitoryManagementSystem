@@ -58,6 +58,18 @@
   
   <build>
   <plugins>
+          <!--打包插件-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <warName>ROOT</warName>
+                    <outputDirectory>
+                        docker
+                    </outputDirectory>
+                </configuration>
+            </plugin>
               <!-- tomcat插件 -->
             <plugin>
                 <groupId>org.apache.tomcat.maven</groupId>
