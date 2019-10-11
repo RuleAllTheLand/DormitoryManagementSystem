@@ -1,0 +1,75 @@
+/*
+delete from tower;
+delete from Dormitry;
+delete from Student;
+delete from College;
+delete from Late;
+delete from Leave;
+delete from Relationship;
+*/
+/*建立宿舍楼基本信息表*/
+insert into tower values(1,'李飒','957780');
+insert into tower values(2,'罗飞','957781');
+insert into tower values(3,'李威','957782');
+insert into tower values(4,'王蒙','957783');
+insert into tower values(5,'刘晓','957784');
+
+
+/*宿舍表*/
+insert into Dormitry values(1,'221');
+insert into Dormitry values(2,'222');
+insert into Dormitry values(3,'223');
+insert into Dormitry values(4,'224');
+insert into Dormitry values(5,'225');
+
+/*建立学院表*/
+
+
+ insert into College values('00','计算机');
+ insert into College values('11','商院');
+ insert into College values('22','设艺');
+ insert into College values('33','化工');
+ insert into College values('44','音乐舞蹈');
+/*建立宿舍学生信息表*/
+
+insert into Student values('陈斌','20172094','软件171','15109511421','00');
+insert into Student values('周帅','20172115','软件171','15109511422','00');
+insert into Student values('蔡泽伟','20172113','软件172','15109511423','11');
+insert into Student values('吴康辉','20172237','软件172','15109511424','33');
+insert into Student values('高梦晶','20172267','信管171','15109511425','33');
+insert into Student values('赵晴','20172051','软件171','15109511426','00');
+insert into Student values('李卓琳','20172044','信管172','15109511427','22');
+insert into Student values('伏晓博','20172277','网络171','15109511428','22');
+insert into Student values('谢荣','20172258','网络171','15109511431','00');
+insert into Student values('白丽娜','20172039','软件171','15109511429','11');
+
+
+
+
+
+/*创建晚归信息表*/
+
+insert into Late values('谢荣','20172258','2019-01-01 23:00','学习');
+insert into Late values('陈斌','20172094','2019-10-11 23:30','外出');
+insert into Late values('赵晴','20172051','2019-11-01 23:00','学习');
+insert into Late values('高梦晶','20172267','2019-12-11 23:10','外出');
+insert into Late values('周帅','20172115','2019-12-30 23:20','外出');
+
+
+
+/*创建请假表*/
+
+insert into Leave values('20172039','2019-01-01','回家');
+insert into Leave values('20172094','2019-01-21','回家');
+insert into Leave values('20172051','2019-11-11','游玩');
+insert into Leave values('20172267','2019-01-24','回家');
+insert into Leave values('20172115','2019-01-05','旅游');
+
+
+/*创建住宿关系*/
+
+insert into Relationship values('221','20172039');
+insert into Relationship values('222','20172094');
+insert into Relationship values('223','20172051');
+insert into Relationship values('224','20172267');
+insert into Relationship values('225','20172115');

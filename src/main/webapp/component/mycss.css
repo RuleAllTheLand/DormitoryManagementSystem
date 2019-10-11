@@ -1,0 +1,504 @@
+@charset "UTF-8";
+         * {
+            margin: 0;
+            padding: 0;
+        }
+ 
+        body,
+        html {
+            margin: 0;
+            padding: 0 !important;
+            padding: 90px 0 32px 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+ 
+        .header {
+            background: #FFFFFF;
+            width: 100%;
+            height: 90px;
+            overflow: hidden;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            text-align: center;
+            background-color: #FFCC00;
+        }
+ 
+        .content {
+            position: absolute !important;
+            position: relative;
+            top: 90px !important;
+            top: 0;
+            bottom: 32px;
+            width: 100%;
+            overflow: hidden;
+            height: auto !important;
+            height: 100%;
+            left: -3px;
+        }
+ 
+
+ 		.menu {
+            height: 100%;
+            width:10%;
+            background: #E0E0E0 ;
+            overflow-y: auto;
+            text-align: center;
+            float:left
+        }
+        
+		 .menu ul {
+		    list-style-type: none;
+		    margin: 0;
+		    padding: 0;
+		    width: 100%;
+		     
+			}
+		 
+		 .menu ul li a {
+		    display: block;
+		     
+		    padding: 8px 16px;
+		    text-decoration: none;
+		}
+		 .menu ul li a:hover {
+		    background-color: #555;
+		    color: white;
+		}
+
+
+         .main {
+            height: 100%;
+            width:90%;
+            background: #66CCFF;
+            overflow-y: auto;
+            float:left;
+        }
+        
+        .path{
+        	height: 3%;
+        	width: 100%;
+        	background: #66CCFF;
+        	float:left;
+        }
+        
+        .path ul li{
+ 
+        	float:left;
+        	display: list-item;
+ 
+        	 list-style:none;
+        
+        }
+        .path ul li a{
+        	text-decoration:none;
+        	 
+        }
+         .path ul li a:hover{
+         		color: #ffffff;
+         }
+		
+		.path ul li.active {
+		    background-color: #FFFFFF;
+		    color: white;
+		}
+		.centercontent{
+		text-align:center;
+   		height: 100%;
+   		width: 100%;
+		}
+		
+		
+        .footer {
+            background: #9CF;
+            width: 100%;
+            height: 40px;
+            color: #e1efff;
+            line-height: 32px;
+            letter-spacing: 1px;
+            text-align: center;
+            clear: both;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background-color: #FF6600;
+        }
+        .navigationbar{
+           	position: fixed;
+    		z-index: 5;
+    		top: 0;
+    		left: 0;
+    		list-style-type: none;
+    		font-size: 1.3em;
+    		width: 100%;
+    		margin: 0;
+    		padding: 0;
+    		opacity: 0.98;
+    		padding: 10px 0 0 20px;
+  			 
+        }
+        
+       .navigationbar li {	
+        		width: 10%;
+ 			 	height:100%;
+			    display: list-item;
+			    text-align: -webkit-match-parent;
+			    float:left;
+			    padding: 10px 0 0 20px;
+			    font-size: 1.1em;
+			    font-family: proxima-nova,'Helvetica Neue',Helvetica,Arial,sans-serif;
+		}
+		
+		.navigationbar li a {
+		    display: block;
+		    color: #000;
+		    padding: 10%;
+		    text-decoration: none;
+		}
+		
+		.navigationbar li img {
+		 		width: 100%;
+		 		height:100%;
+		}
+
+		.navigationbar li.active {
+		    background-color: #FFFFFF;
+		    color: white;
+		}
+
+		.navigationbar li a:hover:not(.active) {
+		    background-color: #555;
+		    color: white;
+		}
+		
+		.centercontent h1{
+			font-family:"宋体";
+		 	
+			color:black;
+			font-style:oblique;
+			line-height:2em;
+			word-spacing:50px;
+			 align-items:center;
+ 
+		}
+		.centercontent p{
+			font-family:"宋体";
+			font-size:25px;
+			color:black;
+			font-style:oblique;
+			line-height:2em;
+			word-spacing:25px;
+			　text-align:center;
+			text-indent: 2em;
+			
+		}
+		.form{
+ 
+		width:40%;
+		margin:0 auto;
+		text-align: center;
+		
+		}
+		.form h1{
+			width:50%;
+			margin:0 auto;
+		}
+		.form input{
+			 
+		-webkit-appearance: none;
+        -moz-appearance: none;
+        appearance:none ;
+        text-align: center;
+        height: 25px;
+        width: 94%;
+        border-radius: 15px;
+        border: 0px solid #fff;
+        padding:0 8px;
+        outline: 0;
+        letter-spacing: 1px;
+        color:#000000;
+        margin:5px;
+        padding:2px;
+        font-weight: 600;
+        background: #ffffff;/*半透明背景色*/
+        border: 1px solid rgba(255,255,255,.15);
+        box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+        text-shadow: 0 1px 2px rgba(0,0,0,.1);
+ 
+		}
+		
+		.form input::-webkit-input-placeholder{ /*WebKit browsers*/
+        color: #000000;
+   		 }
+		.form input:hover{
+			background-color: #ff8080;
+		}
+ 
+		.form .formbutton{
+ 		-webkit-appearance: none;
+        -moz-appearance: none;
+        appearance:none ;
+        text-align: center;
+        height: 36px;
+        width: 50%;
+        border-radius: 15px;
+        border: 0px solid #fff;
+        padding:0 8px;
+        outline: 0;
+        letter-spacing: 1px;
+        color:#000000;
+        margin:10px;
+        padding:5px;
+        font-weight: 600;
+        background: #804000;/*半透明背景色*/
+        border: 1px solid rgba(255,255,255,.15);
+        box-shadow: 0 2px 3px 0 rgba(0,0,0,.1) inset;
+        text-shadow: 0 1px 2px rgba(0,0,0,.1);
+		}
+		
+		.form .formbutton:hover {
+		background-color:#0080c0 ;
+		}
+		
+		
+	/*
+	表格的特效
+	*/
+	
+	.datalist {
+	  border: 1px solid #429fff; /* 表格边框 */
+	  font-family: Arial;
+	  border-collapse: collapse; /* 边框重叠 */
+	}
+	.datalist tr:hover {
+	  background-color: #c4e4ff; /* 动态变色,IE6下无效！*/
+	}
+	.datalist caption {
+	  padding-top: 3px;
+	  padding-bottom: 2px;
+	  font: bold 1.1em;
+	  background-color: #f0f7ff;
+	  border: 1px solid #429fff; /* 表格标题边框 */
+	}
+	.datalist th {
+	  border: 1px solid #429fff; /* 行、列名称边框 */
+	  background-color: #d2e8ff;
+	  font-weight: bold;
+	  padding-top: 4px;
+	  padding-bottom: 4px;
+	  padding-left: 10px;
+	  padding-right: 10px;
+	  text-align: center;
+	}
+	.datalist td {
+	  border: 1px solid #429fff; /* 单元格边框 */
+	  text-align: center;
+	  padding: 4px;
+	}
+	.table{
+		text-align: center;
+	}
+	.table a{
+	 
+		padding:3px;
+		margin:5px;
+		text-decoration:none;
+		border: 3px solid red;
+	}
+	.table a:hover {
+		background-color: red;
+	}
+ /*搜索框美化*/
+ 	.search{ 
+ 
+		margin:0 auto;
+ 	 
+ 		text-align: center;
+ 		 
+ 	 
+ 	}
+ 	.search_tool .textbox{
+ 		 border-radius: 15px;
+ 		 
+ 		font-size: 20px;
+ 	}
+ 	
+ 	 .search_tool .submit_button{
+ 	 	 border-radius: 15px;
+ 		font-size: 20px;
+ 	}
+ /*模态框*/
+ 
+ /*登陆选择租户模态框样式*/
+.tenant-model{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.5);
+}
+.tenant-model-content{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 50%;
+ 
+    max-height: 500px;
+    margin: 100px auto;
+    border-radius:10px;
+    background-color:#fff;
+    -webkit-animation: zoom 0.6s;
+    animation: zoom 0.6s;
+ 
+}
+@-webkit-keyframes zoom{
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
+}
+@keyframes zoom{
+    from {transform: scale(0)}
+    to {transform: scale(1)}
+}
+.tenant-model-header{
+    height:50px;
+    box-sizing:border-box;
+    border-bottom:1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#closeModel{
+    color: #b7b7b7;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 20px;
+    transition: all 0.3s;
+}
+#closeModel:hover,#closeModel:focus{
+    color: #95b4ed;
+    text-decoration: none;
+    cursor: pointer;
+}
+.tenant-model-body{
+    padding: 10px;
+    font-size: 16px;
+    box-sizing:border-box;
+}
+.tenant-model-footer{
+    box-sizing:border-box;
+    border-top:1px solid #ccc;
+    display: flex;
+    padding: 15px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.tenant-model-footer >button{
+    width: 60px;
+    height: 35px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+.tenant-model-footer button:hover,.tenant-model-footer button:focus{
+    background-color: #95b4ed;
+    cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+    .tenant-model-content {
+        width: 80%;
+    }
+}
+
+
+/*模态框的表单*/
+.modellist{
+	text-align: center;
+}
+ .modellist table{
+ 	border: 1px;
+	 
+	font-family: verdana,arial,sans-serif;
+ 
+    color:#333333;
+    border:10px;
+    border-width: 1px;
+    border-color: #666666;
+    border-collapse: collapse;
+ 
+ }
+ .modellist th{
+ 	border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #dedede;
+ }
+ .modellist td{
+ 	border-width: 1px;
+    padding: 8px;
+    border-style: solid;
+    border-color: #666666;
+    background-color: #ffffff;
+ 
+ }
+ 
+ .modelform input{
+ 	border: none;
+ 	outline: none;
+ }
+.modelbox  button {
+	margin:10px;
+	float: right;
+	width: 9%;
+}
+
+
+/**
+非常好看的模态框
+*/
+         /* 定义模态对话框外面的覆盖层样式 */
+#modal-overlay {
+             visibility: hidden;    
+             position: absolute;   /* 使用绝对定位或固定定位  */
+             left: 0px;    
+             top: 0px;
+             width:100%;
+             height:100%;
+             text-align:center;
+             z-index: 1000;
+             background-color: #333; 
+             background:rgba(0,0,0,0.5);
+        }
+/* 模态框样式 */
+        .modal-data{
+            width:50%;
+             margin: 100px auto;
+             background-color: #c0c0c0;
+             background:rgba(255,255,255,1);
+             border:1px solid #000;
+             padding:15px;
+             text-align:center;
+            
+        }
+        .modal-data input{
+        	width: 20%;
+        	text-align: center;
+        }
+        .modelmessage{
+        visibility: hidden; 
+        
+        }
+.closeDialog{
+    float: right;
+}
+ 
+ 

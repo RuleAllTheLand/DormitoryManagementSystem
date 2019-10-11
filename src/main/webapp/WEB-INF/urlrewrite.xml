@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE urlrewrite
+    PUBLIC "-//tuckey.org//DTD UrlRewrite 4.0//EN"
+    "http://www.tuckey.org/res/dtds/urlrewrite4.0.dtd">
+<urlrewrite>
+ 
+ <rule>
+        <from>/$</from>
+        <to>/WEB-INF/web/manage.jsp</to>
+ </rule>
+ 
+  <rule>
+        <from>/manage$</from>
+        <to >/WEB-INF/web/manage.jsp</to>
+ </rule>
+ 
+ <!-- 学生管理 -->
+   <rule>
+        <from>/student$</from>
+        <to >/WEB-INF/web/student.jsp</to>
+ </rule>
+ 
+    <rule>
+        <from>/student/stuadd$</from>
+        <to >/WEB-INF/web/stuadd.jsp</to>
+ </rule>
+ 
+     <rule>
+        <from>/student/studel$</from>
+        <to >/WEB-INF/web/studel.jsp</to>
+ 	</rule>
+ 	
+ 	<rule>
+        <from>/student/stuupdate$</from>
+        <to >/WEB-INF/web/stuupdate.jsp</to>
+ 	</rule>
+ 	<rule>
+        <from>/student/stusearch$</from>
+        <to >/WEB-INF/web/stusearch.jsp</to>
+ 	</rule>
+ 	
+
+ 	
+ 	<!-- 住宿管理 -->
+ 	<rule>
+        <from>/acc$</from>
+        <to >/WEB-INF/web/acc.jsp</to>
+ 	</rule>
+    <rule>
+        <from>/acc/accadd$</from>
+        <to >/WEB-INF/web/accadd.jsp</to>
+ </rule>
+ 
+     <rule>
+        <from>/acc/accdel$</from>
+        <to >/WEB-INF/web/accdel.jsp</to>
+ 	</rule>
+ 	
+ 	<rule>
+        <from>/acc/accupdate$</from>
+        <to >/WEB-INF/web/accupdate.jsp</to>
+ 	</rule>
+ 	<rule>
+        <from>/acc/accsearch$</from>
+        <to >/WEB-INF/web/accsearch.jsp</to>
+ 	</rule>
+ 	
+ 	
+ 	<!--请假管理 -->
+ 	<rule>
+        <from>/lea$</from>
+        <to >/WEB-INF/web/lea.jsp</to>
+ 	</rule>
+    <rule>
+        <from>/lea/leaadd$</from>
+        <to >/WEB-INF/web/leaadd.jsp</to>
+ </rule>
+ 
+     <rule>
+        <from>/lea/leadel$</from>
+        <to >/WEB-INF/web/leadel.jsp</to>
+ 	</rule>
+ 	
+ 	<rule>
+        <from>/lea/leaupdate$</from>
+        <to >/WEB-INF/web/leaupdate.jsp</to>
+ 	</rule>
+ 	<rule>
+        <from>/lea/leasearch$</from>
+        <to >/WEB-INF/web/leasearch.jsp</to>
+ 	</rule>
+ 	
+ 	<!--晚归管理 -->
+ 	<rule>
+        <from>/lat$</from>
+        <to >/WEB-INF/web/lat.jsp</to>
+ 	</rule>
+    <rule>
+        <from>/lat/latadd$</from>
+        <to >/WEB-INF/web/latadd.jsp</to>
+ </rule>
+ 
+     <rule>
+        <from>/lat/latdel$</from>
+        <to >/WEB-INF/web/latdel.jsp</to>
+ 	</rule>
+ 	
+ 	<rule>
+        <from>/lat/latupdate$</from>
+        <to >/WEB-INF/web/latupdate.jsp</to>
+ 	</rule>
+ 	<rule>
+        <from>/lat/latsearch$</from>
+        <to >/WEB-INF/web/leasearch.jsp</to>
+ 	</rule>
+ 	
+ 	<!-- 系统管理 -->
+ 	
+ 	 <rule>
+        <from>/system$</from>
+        <to >/WEB-INF/web/system.jsp</to>
+ 	</rule>
+ 	
+ 	 	<!-- 基本管理 -->
+ 	
+ 	 <rule>
+        <from>/basic$</from>
+        <to >/WEB-INF/web/basic.jsp</to>
+ 	</rule>
+ 
+ 	<rule>
+        <from>/basic/basiccol$</from>
+        <to >/WEB-INF/web/basiccol.jsp</to>
+ 	</rule>
+ 	<rule>
+        <from>/basic/basictower$</from>
+        <to >/WEB-INF/web/basictower.jsp</to>
+ 	</rule>
+ 	<rule>
+        <from>/basic/basicdor$</from>
+        <to >/WEB-INF/web/basicdor.jsp</to>
+ 	</rule>
+ 		<!-- 系统管理 -->
+ 	 <rule>
+        <from>/system$</from>
+        <to >/WEB-INF/web/system.jsp</to>
+ 	</rule>
+ 	 <rule>
+        <from>/system/sysuser$</from>
+        <to >/WEB-INF/web/sysuser.jsp</to>
+ 	</rule>
+ 	 	 <rule>
+        <from>/system/syslogin$</from>
+        <to >/WEB-INF/web/syslogin.jsp</to>
+ 	</rule>
+ 	<!-- 关于我们 -->
+  <rule>
+        <from>/aboutus$</from>
+        <to >/WEB-INF/web/aboutus.jsp</to>
+ </rule>
+</urlrewrite>
