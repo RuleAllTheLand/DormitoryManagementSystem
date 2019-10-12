@@ -1,0 +1,14 @@
+127.0.0.1 - - [12/Oct/2019:14:40:19 +0800] "POST /web/student/other/studentadd.jsp HTTP/1.1" 200 651 http-bio-8089-exec-3 335
+127.0.0.1 - - [12/Oct/2019:14:41:05 +0800] "POST /web/student/other/studentadd.jsp HTTP/1.1" 200 629 http-bio-8089-exec-5 3
+127.0.0.1 - - [12/Oct/2019:14:42:33 +0800] "POST /web/student/other/studentadd.jsp HTTP/1.1" 200 625 http-bio-8089-exec-9 34
+127.0.0.1 - - [12/Oct/2019:14:42:45 +0800] "POST /web/student/other/studentadd.jsp HTTP/1.1" 200 642 http-bio-8089-exec-9 2
+127.0.0.1 - - [12/Oct/2019:14:43:23 +0800] "POST /web/student/manager/m_studentadd.jsp HTTP/1.1" 200 3977 http-bio-8089-exec-9 42
+127.0.0.1 - - [12/Oct/2019:14:43:23 +0800] "GET /component/mycss.css HTTP/1.1" 304 - http-bio-8089-exec-9 2
+127.0.0.1 - - [12/Oct/2019:14:43:23 +0800] "GET /img/logo01.png HTTP/1.1" 304 - http-bio-8089-exec-4 2
+127.0.0.1 - - [12/Oct/2019:14:43:23 +0800] "GET /component/myjs.js HTTP/1.1" 304 - http-bio-8089-exec-7 0
+127.0.0.1 - - [12/Oct/2019:14:43:23 +0800] "GET /component/jquery-3.4.1.min.js HTTP/1.1" 304 - http-bio-8089-exec-5 2
+127.0.0.1 - - [12/Oct/2019:14:43:23 +0800] "GET /component/js/stuadd.js HTTP/1.1" 304 - http-bio-8089-exec-8 1
+127.0.0.1 - - [12/Oct/2019:14:43:29 +0800] "POST /web/student/other/studentadd.jsp HTTP/1.1" 200 699 http-bio-8089-exec-8 1
+127.0.0.1 - - [12/Oct/2019:14:44:08 +0800] "POST /web/student/other/studentadd.jsp HTTP/1.1" 200 660 http-bio-8089-exec-9 23
+127.0.0.1 - - [12/Oct/2019:14:44:26 +0800] "POST /web/student/manager/m_studentadd.jsp HTTP/1.1" 200 3977 http-bio-8089-exec-9 28
+127.0.0.1 - - [12/Oct/2019:14:44:32 +0800] "POST /web/student/other/studentadd.jsp HTTP/1.1" 200 665 http-bio-8089-exec-9 2
