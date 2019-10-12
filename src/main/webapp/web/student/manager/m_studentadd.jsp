@@ -9,6 +9,10 @@
  <link rel="stylesheet" type="text/css" href="/component/mycss.css">
 </head>
 <body>
+<%
+response.setCharacterEncoding("UTF-8");
+request.setCharacterEncoding("UTF-8");
+%>
 <!-- 导航栏 -->
  <%@ include file="/web/header.jsp" %>
 
@@ -40,7 +44,7 @@
 							<!-- 添加学生的表单3.学生 （学生姓名 ，学号 ，班级 ，电话号码 ,学院 ）-->
 							<div  >
 							
-								<form action="#" method="post" >
+								<form action="/web/student/other/studentadd.jsp" method="post" >
 													<h1>添加学生</h1>
 													<br/>
 									
@@ -61,10 +65,10 @@
 								 	<br/>
 								 		
 								 	学院:<select name="stuDepNo">
-										  <option value ="volvo">计算机科学与工程学院</option>
-										  <option value ="saab">音乐舞蹈学院</option>
-										  <option value="opel">体育学院</option>
-										  <option value="audi">电气信息学院</option>
+										  <option value ="计算机科学与工程学院">计算机科学与工程学院</option>
+										  <option value ="音乐舞蹈学院">音乐舞蹈学院</option>
+										  <option value="体育学院">体育学院</option>
+										  <option value="电气信息学院">电气信息学院</option>
 									</select>
 									<br/>
 						 			<br/>
