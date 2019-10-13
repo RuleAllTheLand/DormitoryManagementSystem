@@ -12,8 +12,7 @@
 response.setCharacterEncoding("UTF-8");
 request.setCharacterEncoding("UTF-8");
 %>
-<jsp:useBean id="student" scope="page" class="cn.itshaorui.dorm.javabean.student.Student"/>
-<jsp:setProperty name="student" property="*"/>
+ 
 
 <div align="center">
 					 		<br/>
