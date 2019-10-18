@@ -1,3 +1,4 @@
+<%@page import="java.util.Date"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -13,6 +14,11 @@
 response.setCharacterEncoding("UTF-8");
 request.setCharacterEncoding("UTF-8");
 %>
+<%
+//刷新
+  response.setHeader("refresh", "30");
+%>
+
 <!-- 导航栏 -->
  <%@ include file="/web/header.jsp" %>
  <!-- 内容栏 -->
@@ -30,6 +36,9 @@ request.setCharacterEncoding("UTF-8");
 			 			</ul>
 			 		</div>
 			 		<div class="centercontent">
+			 		当前时间是
+			 		<%=
+			 		new Date() %>
 			 	 <h3>添加信息成功！</h3>
 							<!-- 添加学生的表单3.学生 （学生姓名 ，学号 ，班级 ，电话号码 ,学院 ）-->
 							<div  >

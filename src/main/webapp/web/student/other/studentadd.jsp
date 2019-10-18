@@ -11,8 +11,12 @@
 <%
 response.setCharacterEncoding("UTF-8");
 request.setCharacterEncoding("UTF-8");
+//获取参数
+Student student=(Student)session.getAttribute("student");
 %>
- 
+<%-- <jsp:useBean id="student" scope="page" class="cn.itshaorui.dorm.javabean.student.Student"/> --%>
+<%-- <jsp:setProperty name="student" property="*"/> --%>
+
 
 <div align="center">
 					 		<br/>
